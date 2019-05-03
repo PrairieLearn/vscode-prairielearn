@@ -116,7 +116,6 @@ function buildLinksFromZoneQuestions(
       return;
     }
     const qid = qidProp.value;
-    console.log(qid);
     const startLoc = qid.loc!.start;
     const endLoc = qid.loc!.end;
     // The AST has location info in 1-indexed form, but VSCode expects it to be
@@ -197,7 +196,6 @@ export class LinkProvider implements vscode.DocumentLinkProvider {
         if (prairieLearnRoot === null) {
           return [];
         }
-        console.log("PL root: ", prairieLearnRoot);
 
         const context: FileContext = {
           prairieLearnRoot
