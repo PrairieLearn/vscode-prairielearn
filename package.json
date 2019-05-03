@@ -1,6 +1,6 @@
 {
-	"name": "prairielearn-vscode",
-	"displayName": "prairielearn-vscode",
+	"name": "vscode-prairielearn",
+	"displayName": "PrairieLearn",
 	"description": "Editor support for PrairieLearn courses and questions",
 	"version": "0.0.1",
 	"engines": {
